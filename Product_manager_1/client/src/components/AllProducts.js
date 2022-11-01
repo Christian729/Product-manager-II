@@ -13,7 +13,7 @@ const AllProducts = (props) => {
         .catch((err)=> console.log(err))
     }, []);
     return (
-        <div> 
+        <div>
             <h1>Display all </h1>
             {
                 productList.map((product, index)=>{
