@@ -12,7 +12,7 @@ const AllProducts = (props) => {
         })
         .catch((err)=> console.log(err))
     }, []); 
-    return (
+    return (  
         <div>
             <h1>Display all </h1>
             {
